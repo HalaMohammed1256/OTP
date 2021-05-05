@@ -13,6 +13,7 @@
 		2B7E654B2642341C00CBF871 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B7E65492642341C00CBF871 /* Main.storyboard */; };
 		2B7E654D2642341C00CBF871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B7E654C2642341C00CBF871 /* Assets.xcassets */; };
 		2B7E65502642341C00CBF871 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B7E654E2642341C00CBF871 /* LaunchScreen.storyboard */; };
+		2B7E6559264237C300CBF871 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E6558264237C300CBF871 /* UITextFieldExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2B7E654C2642341C00CBF871 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B7E654F2642341C00CBF871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B7E65512642341C00CBF871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B7E6558264237C300CBF871 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,24 @@
 		2B7E65422642341B00CBF871 /* OTP */ = {
 			isa = PBXGroup;
 			children = (
-				2B7E65432642341B00CBF871 /* AppDelegate.swift */,
-				2B7E65452642341B00CBF871 /* SceneDelegate.swift */,
+				2B7E655B264237CD00CBF871 /* Delegets */,
 				2B7E65472642341B00CBF871 /* ViewController.swift */,
+				2B7E6558264237C300CBF871 /* UITextFieldExtension.swift */,
 				2B7E65492642341C00CBF871 /* Main.storyboard */,
 				2B7E654C2642341C00CBF871 /* Assets.xcassets */,
 				2B7E654E2642341C00CBF871 /* LaunchScreen.storyboard */,
 				2B7E65512642341C00CBF871 /* Info.plist */,
 			);
 			path = OTP;
+			sourceTree = "<group>";
+		};
+		2B7E655B264237CD00CBF871 /* Delegets */ = {
+			isa = PBXGroup;
+			children = (
+				2B7E65432642341B00CBF871 /* AppDelegate.swift */,
+				2B7E65452642341B00CBF871 /* SceneDelegate.swift */,
+			);
+			path = Delegets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B7E65482642341B00CBF871 /* ViewController.swift in Sources */,
+				2B7E6559264237C300CBF871 /* UITextFieldExtension.swift in Sources */,
 				2B7E65442642341B00CBF871 /* AppDelegate.swift in Sources */,
 				2B7E65462642341B00CBF871 /* SceneDelegate.swift in Sources */,
 			);
